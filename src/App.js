@@ -1,8 +1,6 @@
 import Nav from "./app/components/Nav";
 import Hero from "./app/components/Hero";
 import MovieList from "./app/components/MovieList";
-import { BrowserRouter as Router, Switch, Route, Redirect,} from "react-router-dom";
-
 
 function App() {
   return (
