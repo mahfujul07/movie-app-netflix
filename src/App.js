@@ -13,20 +13,46 @@ function App() {
         <MovieList 
           title="Recomamded"
           filter="sort_by=rating"
+          carousel={true}
         />
         <MovieList 
           title="Action"
           filter="genre=action"
+          carousel={true}
+          speed={1500}
+          duration={1000}
+        />
+        <MovieList 
+          title="Sci-Fi"
+          filter="genre=sci-fi"
+          carousel={true}
+          speed={1500}
+          duration={1000}
+        />
+        <MovieList 
+          title="Adventure"
+          filter="genre=adventure"
+          carousel={true}
+          speed={1500}
+          duration={1000}
+        />
+        <MovieList 
+          title="History"
+          filter="genre=history"
+          carousel={true}
+          speed={1500}
+          duration={1000}
         />
         <MovieList 
           title="Drama"
           filter="genre=drama"
+          carousel={true}
+          speed={1500}
+          duration={1000}
         />
-        <MovieList 
-          title="Thriller"
-          filter="genre=thriller"
-        />
+        
       </div>
+      <div className="text-white text-center py-4 text-lg">Build With ❤ By <a className="font-semibold" href="#">Mahfuz</a></div>
     </div>
   );
 }
